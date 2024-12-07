@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Registro de Usuarios</title>
+  <link rel="stylesheet" href="Styles/styles2.css">
+</head>
+<body>
+  <header>
+    <nav>
+      <a href="index.html">Inicio</a>
+      <a href="funcionalidades.html">Funcionalidades</a>
+      <a href="registro.html">Registro</a>
+    </nav>
+  </header>
+
+  <main>
+    <section>
+      <h1>Registro de Usuarios</h1>
+      <form id="registro-form">
+        <input type="text" id="id" placeholder="ID" required>
+        <input type="text" id="cedula" placeholder="Cédula" required>
+        <input type="text" id="nombre" placeholder="Nombres y Apellidos" required>
+        <input type="date" id="fecha" required>
+        <select id="ciudad" required>
+          <option value="" disabled selected>Ciudad</option>
+          <option value="Quito">Quito</option>
+          <option value="Guayaquil">Guayaquil</option>
+          <option value="Cuenca">Cuenca</option>
+          <option value="Ambato">Ambato</option>
+          <option value="Manta">Manta</option>
+        </select>
+        <button type="submit">Registrar</button>
+      </form>
+    </section>
+  </main>
+
+  <script src="Scripts/registro.js"></script>
+</body>
+</html>
